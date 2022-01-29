@@ -27,6 +27,7 @@ public class ContactServiceIMPL implements ContactService {
 
 	@Override
 	public boolean saveContact(Contact contact) {
+		System.out.println("first change");
 		log.info("saveContact method started");
 		Contact contactSaved = contactRepository.save(contact);
 		return contactSaved.getContactId() != null && contactSaved.getContacNumber() != null;
