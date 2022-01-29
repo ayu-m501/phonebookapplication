@@ -1,0 +1,29 @@
+logging:
+  file:
+    name: MyAppLog.log
+  logback:
+    rollingpolicy:
+      clean-history-on-start: true
+      file-name-pattern: MyAppLog-%d{yyyy-MM-dd}.%i.log
+      max-file-size: 1MB
+      max-history: 30
+      total-size-cap: 10MB
+server:
+  port: 8081
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: password
+    url: jdbc:h2:mem:testdb
+    username: sa
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+    
+phonebookapp:
+       messages:
+                contact_saved  : contact saved successfully
+                contact_failed : something went wrong

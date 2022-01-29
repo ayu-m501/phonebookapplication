@@ -1,0 +1,14 @@
+2021-05-19 20:16:10.285  INFO 15152 --- [main] c.p.c.ContactRestControllerTest          : Starting ContactRestControllerTest using Java 1.8.0_275 on shaitan with PID 15152 (started by lenovo in F:\13-JRTP-PRO\phone-book-app)
+2021-05-19 20:16:10.301  INFO 15152 --- [main] c.p.c.ContactRestControllerTest          : No active profile set, falling back to default profiles: default
+2021-05-19 20:16:13.910  INFO 15152 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-19 20:16:14.525  INFO 15152 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-05-19 20:16:14.540  INFO 15152 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-05-19 20:16:14.540  INFO 15152 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2021-05-19 20:16:14.619  INFO 15152 --- [main] c.p.c.ContactRestControllerTest          : Started ContactRestControllerTest in 5.488 seconds (JVM running for 11.097)
+2021-05-19 20:16:15.884  INFO 15152 --- [main] c.p.serviceimpl.ContactServiceIMPL       : contact not saved successfully
+2021-05-19 20:16:16.070 ERROR 15152 --- [main] c.p.serviceimpl.ContactServiceIMPL       : error ocurred in saveContact methodnull
+2021-05-19 20:16:16.070  INFO 15152 --- [main] c.p.serviceimpl.ContactServiceIMPL       : contact not saved successfully
+2021-05-19 20:16:16.086  INFO 15152 --- [main] c.p.serviceimpl.ContactServiceIMPL       : contacts is not available...plz check database
+2021-05-19 20:16:16.133 ERROR 15152 --- [main] c.p.serviceimpl.ContactServiceIMPL       : getContactById not working fine as expected
+2021-05-19 20:16:16.180  INFO 15152 --- [main] c.p.serviceimpl.ContactServiceIMPL       : contact saved successfully
+2021-05-19 20:16:16.273  INFO 15152 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
